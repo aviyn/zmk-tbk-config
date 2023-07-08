@@ -77,11 +77,11 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
       bindings = <
-   &kp TAB   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp DEL
-   &kp LCTRL &kp N6 &kp N7 &kp N8 &kp N9 &kp N0         &kp LEFT &kp DOWN &kp UP &kp RIGHT &cmd_mode &trans
-   &kp LSHFT &trans &trans &trans &trans &trans         &trans   &trans   &trans &trans    &trans &trans
-                           &kp LGUI &trans &kp SPACE    &kp RET  &trans   &kp RALT
-                        >;
+   &kp TAB   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0    &kp DEL
+   &kp LCTRL &kp N4 &kp N5 &kp N6 &kp N7 &kp LS(SEMI)   &kp LEFT &kp DOWN &kp UP &kp RIGHT &cmd_mode &trans
+   &kp LSHFT &kp N7 &kp N8 &kp N9 &kp N0 &trans         &trans   &trans   &trans &trans    &trans    &trans
+                           &kp LGUI &trans &kp SPACE    &kp RET  &trans   &kp LGUI
+      >;
     };
     raise_layer {
 // -----------------------------------------------------------------------------------------
@@ -91,8 +91,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
       bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &none_blk   &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+   &kp LCTRL &trans   &trans &kp LPAR &kp RPAR &none_blk   &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &trans   &trans &kp LBKT &kp RBKT &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
         >;
     };                
